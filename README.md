@@ -1,10 +1,11 @@
 # TFG_CS_Analysis
 This repository contains the scripts of my thesis' project: 
-"Analysis and comparison of local, national and European citizen science platforms"
+### "Analysis and comparison of local, national and European citizen science platforms"
 Citizen participation in science, known as citizen science, is emerging as support for formal science, so that citizens learn and contribute to the local policies that are carried out. This work aims to analyse and compare the current situation of citizen science in Barcelona, Spain and Europe through its web platforms, with special emphasis on its relation with education.
+
 To do this, information has been extracted from the Barcelonian, Spanish and European citizen science platforms, analysing them through computational techniques that permit to compare them, draw conclusions and indicators.
 
-In order to get and analyse the content of the platforms, six scripts have been generated. First of all, one called “scrapping_data.ipynb” scraps the desired content from the Spanish and Barcelonian platforms using Selenium and saves the different files. 
+In order to get and analyse the content of the platforms, six scripts have been generated. First of all, one called “scrapping_data.ipynb” scraps the desired content from the Spanish and Barcelonian platforms using Selenium and saves the different files. The files with the data are already included in the Data folder, separated by regions. 
 
 Then one called “comparing_platforms.ipynb” imports the project's and resources’ data frames from the three platforms (generated as .xlsx files after performing some analysis in the corresponding scripts). On the one hand, it checks if there are projects that appear on more than one website and displays the corresponding cases to compare the different ways in which platforms present the same initiative. On the other hand, it joins all projects from the three pages (taking the repeated ones just one time) to generate a global dashboard with all projects, and the same is done with the resources. This will assist to create a general overview of the citizen science current situation. 
 
@@ -14,4 +15,4 @@ The resulting data frames have been imported to Tableau as a means to generate d
 
 The report is also included here.
 
-Núria Varas, Mathematical Engineering in Data Science
+Núria Varas, student of Mathematical Engineering in Data Science
