@@ -5,7 +5,7 @@ Citizen participation in science, known as citizen science, is emerging as suppo
 
 To do this, information has been extracted from the Barcelonian, Spanish and European citizen science platforms, analysing them through computational techniques that permit to compare them, draw conclusions and indicators.
 
-In order to get and analyse the content of the platforms, six scripts have been generated. First of all, one called “scrapping_data.ipynb” scraps the desired content from the Spanish and Barcelonian platforms using Selenium and saves the different files. The files with the data are already included in the Data folder, separated by regions. 
+In order to get and analyse the content of the platforms, six scripts have been generated. First of all, one called “scraping_data.ipynb” scraps the desired content from the Spanish and Barcelonian platforms using Selenium and saves the different files. The files with the data are already included in the Data folder, separated by regions. 
 
 Then one called “comparing_platforms.ipynb” imports the project's and resources’ data frames from the three platforms (generated as .xlsx files after performing some analysis in the corresponding scripts). On the one hand, it checks if there are projects that appear on more than one website and displays the corresponding cases to compare the different ways in which platforms present the same initiative. On the other hand, it joins all projects from the three pages (taking the repeated ones just one time) to generate a global dashboard with all projects, and the same is done with the resources. This will assist to create a general overview of the citizen science current situation. 
 
